@@ -1,0 +1,220 @@
+
+.body{
+    padding: 0px;
+    margin: 0px;
+    background-color:lightpick:
+}
+.nav{
+    height: 20vh;
+    width: 100%;
+    background-color: aliceblue;
+    padding-top: 30px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: antiquewhite;
+}
+.menu h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.menu p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+.menu button{
+    padding: 10px 20px;
+    background-color: rgb(187, 92, 92);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px;
+
+}
+.menu .content{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.menu img{
+    height: 70vh;
+    width: 90%;
+    border-radius: 90%;  
+}
+.online-foods{
+    text-align: center;
+    padding-top: 60px;
+
+}
+.icons{
+    color: yellow;
+}
+.food{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.food img{
+    height: 40vh;
+    width: 80%;
+    border-radius: 50%;
+}
+.food button{
+    padding: 10px 20px;
+    background-color: rgb(187, 92, 92);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.offers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10%;
+    
+    
+    
+
+}
+.offers h4{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.offers p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+  
+}
+.offers button{
+    padding: 10px 20px;
+    background-color: rgb(187, 92, 92);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px; 
+}
+.offers img{
+    border-radius: 80%;
+    
+}
+.quality{
+    text-align: center;
+    font-size: large;
+    padding-top: 10%;
+}
+.flavers .flaver{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.flavers .flaver img{
+    height: 40vh;
+    width: 80%;
+    border-radius: 60%;
+}
+.flavers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 6%;
+}
+.service{
+    text-align: center;
+}
+.delivery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 8%;
+    margin-left: 10%;
+}
+.delivery .img{
+    height: 30vh;
+    width: 50%;
+    margin-bottom: 40%;
+   
+}
+.testmoney{
+   text-align: center;
+}
+.testmoney .comments{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.testmoney img{
+    width: 40%;
+    height: 20vh;
+    border-radius: 80px;
+    margin-right: 40% 60%;
+}
+.contactus{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     padding-top: 10%;
+     
+    
+}
+.contactus.content1{
+   
+
+    
+}
+.contactus img{
+    width: 70%;
+    height: 110vh;
+    margin-right: 40px;
+
+   
+
+}
+.contactus h2{
+   
+        
+    
+
+    
+}.contactus .contact2{
+    padding-right:20% ; 
+    margin-top: 20%;
+
+}
+.contactus.h4{
+    padding-top: 10%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: black;
+    color: aliceblue;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(202, 118, 118);
+    color:white;
+    text-align: center;
+}
+@media(max-width:425px) {
+
+    .nav a{
+     
+        flex-direction: column;
+    
+    }
+    .content1{
+        height:40vh;
+        width: 70%;
+    }
+    .menu{
+        display: grid;
+    }
+    
+}
